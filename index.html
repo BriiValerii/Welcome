@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Jaldi" rel="stylesheet">
+  </head>
+  <body>
+
+
+
+<strong><h1>Brii Valerii</h1></strong>
+<p>I'm Brianna Guerrero<span id="dots">...</span><span id="more">. I'm 17 years old, and I currently attend Archimedean Upper Conservatory. I enjoy many activities and find way too much fascinating. <33</span></p>
+
+<button class="btn" onclick="myFunction()" id="myBtn">Read more</button>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+} </script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  background-color: #54baff;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.btn:hover {opacity: 1}
+</style>
+
+<div><strong><h2>Interests</h2></strong></div> <!--INTERESTS-->
+    <div><h3>Languages</div></h3>
+      <div>I'm fluent in both English and Spanish.</div>
+      <div>I've been studying Greek since 2012, so I'm fairly proficient in the language.</div>
+      <div>I began learning Korean independently last summer, but I haven't invested too much time in it recently... </3</div>
+    <div><h3>Music</div></h3>
+      <div>Though I'm not great at it, I can play the piano.</div>
+      <div>I like to sing and rap when I'm alone :))</div>
+    <div><h3>3D Modeling</h3></div>
+      <div>There is some experience in using Blender up my sleeve--</div>
+        <div>My creations include some low-poly artwork and modern architecture/house interiors. </div>
+
+
+<div><strong><h2>Random Facts</h2></strong></div> <!--RANDOM FACTS-->
+
+              <div>Lana Del Rey is my favorite artist</div>
+                <div>She's a goddess</div>
+            <div><p>I started watching Bob's Burgers recently...and it's gr8 :   )</div></p>
+            <iframe src="https://giphy.com/embed/GA0LjZE25siVW" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+border-radius: 50%;
+}
+.fa:hover {
+opacity: 0.7;
+}
+.fa-instagram {
+background: #125688;
+color: white;
+}
+.fa-snapchat-ghost {
+background: #fffc00;
+color: white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+</style>
+
+<div><a href="https://www.instagram.com/briivalerii" class="fa fa-instagram"></a>
+<a href="https://www.snapchat.com/add/briival" class="fa fa-snapchat-ghost"></a></div>
+
+
+
+  </body>
+</html>
